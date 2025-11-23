@@ -1,0 +1,56 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+.vs/
+.vscode/
+[Dd]ebug/
+[Rr]elease/
+[Bb]uild/
+[Cc]makeFiles/
+
+# Ignore vendor directory but allow Git submodules
+vendor/*
+!vendor/.gitkeep
+!vendor/glm/
+!vendor/glfw/
+!vendor/assimp/
+!vendor/glad/
+
+CMakeFiles/
+Makefile
+DartConfiguration.tcl
+*.cmake
+CMakeCache.txt
+imgui.ini
+include/CMakeLists.txt
+libs/CMakeLists.txt
